@@ -14,11 +14,11 @@ var soma = 15+8;
 
 // Atribua à variável `soma` todo o valor dela, somando 1, usando o operador de soma abreviado.
 soma + 1;
-(correta=   soma +=1)
+(correta=   soma +=1, soma = soma+1;, soma ++1;, soma ++)
 
 // Atribua à variável `soma` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
 soma *3
-(correta soma*=3)
+(correta soma*=3;, soma = soma*3;)
 
 // Qual é o valor da variável `soma` até aqui?
 69
